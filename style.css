@@ -1,0 +1,314 @@
+@charset "UTF-8";
+
+html {
+	background-color:rgb(247, 247, 247);
+}
+
+body,
+button {
+  margin: 0; }
+	
+body {
+	font-family: Georgia, serif;
+  line-height: 1.5;
+  font-size: 100%;
+}
+
+img {
+  max-width: 100%; }
+	
+a {
+	color: #0076df;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+	
+footer {
+  background-color: #000000;
+  border-top: thin solid #ccc;
+  color: rgb(247, 247, 247);
+  font-size: 0.85rem;
+  font-weight: 300;
+  text-align: center;
+	margin: 4rem 0rem 0rem 0rem;}
+
+footer a {
+	color: rgb(247, 247, 247);
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h3, h5, .h5, h6, .h6 {
+  font-weight: 600;
+  line-height: 1.25;
+  margin-top: 1em;
+  margin-bottom: .5em; 
+}
+		
+h1, .h1 {
+  font-size: 2.55rem; 
+}
+
+article h1 {
+	margin-top: 0.4em !important;
+}
+
+h2, .h2 {
+  font-size: 2.0rem;
+}
+
+h3, .h3 {
+  font-size: 1.5rem; }
+
+h4, .h4 {
+  font-size: 1.2rem; }
+
+h5, .h5 {
+  font-size: 0.875rem; }
+
+h6, .h6 {
+  font-size: 0.75rem; }
+  
+hr {
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 0;
+  height: 0px;
+  width: 100%; 
+  border: 0;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #ccc; }
+}
+  
+@media screen and (min-width: 32em) {
+	html {
+    	font-size: 16px; 
+/* 			background-color: gray;    	 */
+	}
+}
+
+@media screen and (min-width: 48em) {
+ 	html {
+		font-size: 18px; 
+/* 		background-color: purple; */
+	} 
+}
+
+@media screen and (min-width: 52em) {
+	html {
+/* 		background-color: olive; */
+	}
+}
+
+@media screen and (min-width: 64em) {
+  	html {
+			font-size: 20px; 
+/* 			background-color: red; */
+	}
+}
+	
+@media screen and (min-width: 78em) {
+	html {
+/* 		background-color: green; */
+	}
+	em img {
+    	max-width: 56rem;
+    	margin-left: -7em; 
+	} 
+}
+
+@media screen and (min-width: 96em) {
+}
+
+.site {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+	
+.site-wrap {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto; 
+}
+  
+.measure {
+  margin: 0 auto;
+  max-width: 34rem; 
+}
+  
+.left-align {
+	text-align: left; 
+}
+
+.center {
+	text-align: center; 
+}
+
+.right-align {
+	text-align: right; 
+}
+	
+.nowrap {
+  white-space: nowrap; 
+}
+
+.p1 {
+  padding: 0.5rem; }
+
+.py1 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem; }
+
+.px1 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem; }
+
+.p2 {
+  padding: 1rem; }
+
+.py2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+
+.px2 {
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+.p3 {
+  padding: 2rem; }
+
+.py3 {
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+
+.px3 {
+  padding-left: 2rem;
+  padding-right: 2rem; }
+
+.p4 {
+  padding: 4rem; }
+
+.py4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+
+.px4 {
+  padding-left: 4rem;
+  padding-right: 4rem; }
+
+td.nowrap {
+	vertical-align: text-top;
+}
+
+table {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td,
+table > tfoot > tr > th,
+table > tfoot > tr > td {
+    padding: 0.0rem;
+    vertical-align: top;
+    border-top: 0px solid #333; 
+}
+
+table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #333; 
+}
+
+table > caption + thead > tr:first-child > th,
+table > caption + thead > tr:first-child > td,
+table > colgroup + thead > tr:first-child > th,
+table > colgroup + thead > tr:first-child > td,
+table > thead:first-child > tr:first-child > th,
+table > thead:first-child > tr:first-child > td {
+    border-top: 0; 
+}
+
+table > tbody + tbody {
+    border-top: 2px solid #333; 
+}
+
+table.suttas {
+	font-size: 1.275rem;
+}
+
+table.suttas > thead > tr > th,
+table.suttas > thead > tr > td,
+table.suttas > tbody > tr > th,
+table.suttas > tbody > tr > td,
+table.suttas > tfoot > tr > th,
+table.suttas > tfoot > tr > td {
+    padding: 0.0rem 0 0.94rem 0;
+    /*line-height: 1.6;*/
+    vertical-align: top;
+    border-top: 0px solid #333; 
+}
+
+table.suttas td:nth-child(1) {
+	white-space: nowrap;
+}
+
+table.suttas td:nth-child(2) {
+	padding-left: 1.0rem;
+	width: 100%; /* Force the first td to be as small as possible */
+}
+
+table.sutta-info td:nth-child(1) {
+	white-space: nowrap;
+}
+
+table.sutta-info td:nth-child(2) {
+	padding-left: 1.0rem;
+	width: 100%; /* Force the first td to be as small as possible */
+}
+
+div.sutta-text {
+	margin-top: 1rem
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
